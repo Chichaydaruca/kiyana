@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Website</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <style>
+    /* Add custom styles here */
+    html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.topnav{
+    display: flex;
+    justify-content: flex-end;
+    background-color: white;
+    overflow: hidden;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.topnav a { 
+    float: left;
+    color: hwb(0 3% 97%);
+    text-align: center;
+    padding: 10px 26px;
+    text-decoration: none;
+    font-size: 14px;
+}
+.topnav a :hover { 
+    background-color: #18120e;
+color: #f1eded;
+}
+.header {
+background-color: black;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: bottom;
+height: 600px;
+padding: 100px;    
+}
+.overlay {
+    background-color: #f2f2f2(0,0,0.8);
+    text-align: center;
+    color: rgb(252, 248, 248);
+    padding: 80px;
+} 
+.about{ 
+    padding: 200px 100px 200px 100px; 
+    display: flex;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+}
+.content{ 
+    place-self: center;
+    text-align: left;
+    line-height: 22px;
+    padding: 50px 50px;
+    width: 50%;
+    letter-spacing: 0.8px;
+}
+
+.about-image{ 
+    place-self: center;
+    width: 50%;
+}
+.about-image img{ 
+    width: 600px;
+    height: auto;
+    object-fit: cover;
+    border: 2px solid #fff;
+} 
+.gallery-image { 
+    padding: 100px 50px;
+    height: auto;
+    background-color: black;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: bottom; 
+} 
+
+div.gallery img { 
+    
+    width: 100%; 
+    
+    height: 400px; 
+    
+    object-fit: cover;
+    
+    object-position: top; 
+    
+    border: 2px solid #fff;  
+    
+}
+
+.responsive { 
+   
+    padding: 6px 6px ; 
+    
+    display: inline-grid; 
+    
+    width: 33%; 
+    
+    box-sizing: border-box; 
+}
+.contact{
+    font-size: 15px;
+    color: white
+}
+  </style>
+</head>
+<body>
+
+    <!--Top Navigation Bar-->
+    <div class= "topnav">
+        <a href= "#homepage.html"> Home </a>
+        <a href= "#about-myself"> About Myself </a>
+        <a href= "#gallery"> My Gallery </a>
+        <a href= "#contact"> Contact </a>
+    </div>
+    <!--Header Section-->
+    <div class="header">
+        <div class="overlay">
+            <img src="img/profile.jpg" alt="profile-picture" width="200px" height="200px"
+            style="border-radius: 100px; border: 2px solid #ffffff;">
+            <h1 style="font-size: 45px" > Quiana Mithzi A. Daruca </h1>
+                <h2> Professional Photographer/Videographer </h2>
+            </div>
+            </div>
+           <!--end-->
+
+           <!--About Section-->
+           <div class="about" id="about-myself">
+            <div class="content">
+            <h1 style="font-size: 50px;"> About Myself </h1>
+            <p>I am 18 years old from Pakil, Laguna, but now I'm here in Caloocan to
+              pursue my dreams.I went to elementary school at Kabulusan Elementary
+              School (KES) and graduated in 2015-2016, and I studied junior and senior high
+              school at Kabulusan Integrated National High School (KINHS) and graduated
+              in 2022-2023. While I was studying in high school, I also worked because I
+              didn't want to be a burden on my grandmother. Now that I am in college, I
+              have enrolled in Global Reciprocal Colleges (GRC) for a Bachelor of Science
+              in Information Technology course, and I hope to achieve my dreams.
+            </p>
+            </div> 
+            <div class="about-image">
+                <img src="img/about.jpg" alt="About-Photo"> 
+            </div>
+        </div> 
+        <!--end-->     
+
+        <!--Gallery Section-->
+        <div class="gallery-image" id="gallery">
+        <h1 style="text-transform: uppercase; color: #fff">My Gallery</h1>
+        <div class="responsive">
+            <div class="gallery">
+                <img src="img/img1.jpg" alt="cinque terre" width="400" height="400">
+                </div>
+                </div>
+
+            <div class="responsive">
+                <div class="gallery">
+                    <img src="img/img2.jpg" alt="forest" alt="400" height="400">
+                    </div>
+                    </div>
+
+                    <div class="responsive">    
+                        <div class="gallery">
+                        <img src="img/img3.jpg" alt="Northern lights" alt="400" height="400">  
+                    </div>
+                </div>
+                
+                <div class="responsive"> 
+                    <div class="gallery">
+                    <img src="img/img4.jpg" alt="Mountains" alt="600" height="400">
+                </div>
+            </div>
+
+            <div class="responsive"> 
+                <div class="gallery">  
+                <img src="img/img5.jpg" alt="Mountains" alt="600" height="400">
+            </div>
+        </div>
+
+        <div class="responsive"> 
+            <div class="gallery">
+            <img src="img/img6.jpg" alt="Mountains" alt="600" height="400">
+        </div>
+    </div>
+    <div class="contact" id="contact">
+        <div class="responsive">
+        <h1 style="text-transform: uppercase; color: #fff">Contact</h1>
+        <ul class="font-size">
+            <li>Contact no. 09611696328</li>           
+            <li>Facebook Account:Quiana Mithzi Daruca</li>   
+            <li>Instagram Account:@kiyananotfound</li>
+            <li>Email:quianamithzi30@gmail.com</li>
+        </ul>
+    </div>
+    </div>
+  <!-- Bootstrap JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
